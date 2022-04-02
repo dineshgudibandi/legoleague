@@ -31,7 +31,6 @@ const SlideFooter = (): JSX.Element => {
       <Footer>
         <SlideInfo aria-live="polite">
           <h3>{current.name}</h3>
-          <p>{current.artist.name}</p>
         </SlideInfo>
         <Controls>
           <ArrowButton

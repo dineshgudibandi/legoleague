@@ -8,14 +8,18 @@ const StyledLink = styled(Link)`
 `
 
 const Wrapper = styled.div`
-  width: 7.0625rem;
+  width: 20.0625rem;
+  font-size: 24px;
+  font-style: bold;
+  text-decoration:none;
+  color: #000;
   svg {
     width: 100%;
     height: auto;
   }
 
   @media ${queries.laptopUp} {
-    width: 10.625rem;
+    width: 20.625rem;
   }
 `
 
@@ -23,7 +27,7 @@ const Logo = (): JSX.Element => {
   return (
     <StyledLink to="/">
       <Wrapper>
-        <img src={LogoIcon} alt="Galleria Logo - home" />
+        First Lego League
       </Wrapper>
     </StyledLink>
   )

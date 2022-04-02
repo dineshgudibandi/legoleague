@@ -3,8 +3,6 @@ export interface Painting {
   name: string
   year: number
   description: string
-  source: string
-  artist: Artist
   images: Images
 }
 

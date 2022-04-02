@@ -5,7 +5,6 @@ export const Figure = styled.figure`
   position: relative;
   opacity: 1;
   transition: opacity 0.2s linear;
-
   &:hover {
     opacity: 0.5;
     cursor: pointer;

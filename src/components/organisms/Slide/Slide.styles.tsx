@@ -31,9 +31,9 @@ export const Header = styled.div`
 export const Figure = styled(motion.figure)`
   position: relative;
   margin-bottom: 11rem;
-
+  left: 200px !important;
   @media ${queries.tabletUp} {
-    width: 29.6875rem;
+    width: 50.6875rem;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;

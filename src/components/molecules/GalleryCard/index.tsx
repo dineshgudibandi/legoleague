@@ -12,7 +12,6 @@ const GalleryCard: React.FC<Painting> = ({
   id,
   name,
   images,
-  artist,
 }): JSX.Element => {
   const dispatch = useDispatch()
   return (
@@ -22,10 +21,9 @@ const GalleryCard: React.FC<Painting> = ({
         onClick={() => dispatch(setCurrentSlide(id ? id : 0))}
       >
         <Figure>
-          <img src={images.thumbnail} alt="" />
+          <img src={images.thumbnail} alt="" style={{left:'200px;'}} />
           <Caption variants={captionAnimation}>
             <h2>{name}</h2>
-            <p>{artist.name}</p>
           </Caption>
         </Figure>
       </Link>
