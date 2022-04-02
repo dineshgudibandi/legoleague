@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/legoleague/static/js/main.7ecfc0ee.js",
+    "index.html": "/legoleague/index.html",
+    "static/media/icon-view-image.svg": "/legoleague/static/media/icon-view-image.5d93085b7174a784f28976407a73d6dd.svg",
+    "static/media/icon-back-button.svg": "/legoleague/static/media/icon-back-button.645d6eb5236b194906b9f7d71f9019ba.svg",
+    "static/media/icon-next-button.svg": "/legoleague/static/media/icon-next-button.c138db055a1e2c5364390aad26b57f0f.svg",
+    "main.7ecfc0ee.js.map": "/legoleague/static/js/main.7ecfc0ee.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7ecfc0ee.js"
+  ]
+}
